@@ -61,10 +61,10 @@
                         <a class="nav-link mx-3" href="#" data-bs-toggle="modal" data-bs-target="#loginModal">Login</a>
                     </li>
                     <li class="nav-item">
-                        <a id="about-link " class="nav-link mx-3" href="#">About</a>
+                        <a id="about-link" class="nav-link mx-3" href="#">About</a>
                     </li>
                     <li class="nav-item">
-                        <a id="contact-link " class="nav-link mx-3" href="#">Contact</a>
+                        <a id="contact-link" class="nav-link mx-3" href="#">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -148,7 +148,7 @@
 
 
  
-          <!-- Login Modal -->
+          <!-- Login Modal 
 <div class="modal fade" id="loginModal" tabindex="-1">
   <div class="modal-dialog">
     <div class="modal-content">
@@ -167,6 +167,7 @@
             <label for="loginPassword" class="form-label">Password</label>
             <input type="password" class="form-control" id="loginPassword" name="loginPassword" required>
           </div>
+       
           <button type="submit" class="btn btn-primary">Login</button>
         </form>
       </div>
@@ -174,7 +175,7 @@
   </div>
 </div>
 
-
+      -->
 
 <!-- Your page content goes here -->
 
@@ -195,13 +196,13 @@
             $("#about-link").click(function () {
                 $('html, body').animate({
                     scrollTop: $("#footer").offset().top
-                }, 1000);
+                }, 2000);
             });
 
             $("#contact-link").click(function () {
                 $('html, body').animate({
                     scrollTop: $("#footer").offset().top
-                }, 1000);
+                }, 2000);
             });
         });
     </script>

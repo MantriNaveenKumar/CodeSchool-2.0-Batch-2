@@ -1,212 +1,379 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Font Awesome Example</title>
-  <link rel="stylesheet" href="index.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-  
-</head>
-<body>
-  
-    <nav>
-     <div class="nav">
-        <div class="logo">
-            <img src="https://tse1.mm.bing.net/th?id=OIP.q1dLIubLhvi2zWf8MCoiSwAAAA&pid=Api&P=0&h=180" alt="News">
-        </div>
-        <div class="nav-icons">
-            <i class="fa-brands fa-facebook"></i>
-            <i class="fa-brands fa-twitter"></i>
-            <i class="fa-brands fa-instagram"></i>
-            <i class="fa-brands fa-pinterest"></i>
-            <i class="fa-brands fa-tiktok"></i>
-            <i class="fa-brands fa-youtube"></i>
-        </div>
-     </div>
-    </nav>
+<html>
+    <head>
+        <title>Bootstarp basic portofolio</title>
+        <link rel="stylesheet" href="index.css" type="text/css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+       
+    </head>
+    <body>
+       
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+              <a class="navbar-brand " href="#">
+                <img src="https://tse1.mm.bing.net/th?id=OIP.q1dLIubLhvi2zWf8MCoiSwAAAA&pid=Api&P=0&h=180" alt="News" class="nav-img">
+               
+               </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto me-4 ps-2">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#"><i class="fa-brands fa-facebook"></i></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="#"><i class="fa-brands fa-twitter"></i></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="#"><i class="fa-brands fa-instagram"></i></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active"><i class="fa-brands fa-pinterest"></i></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active"><i class="fa-brands fa-tiktok"></i></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active"><i class="fa-brands fa-youtube"></i></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
 
-
-  <header>
-    <div class="header">
-        <div class="header-content">
-           <ul>
-            <li>Home</li>
-            <li>Lifestyle</li>
-            <li>Culture</li>
-            <li> Features </li>
-            <li>Contact</li>
-           </ul>
-        </div>
-        <div class="header-icons">
-            <i class="fa-solid fa-magnifying-glass"></i>
-            <i class="fa-sharp fa-solid fa-bars"></i>
-        </div>
-    </div>
-  </header>
-
-
-
-  
-  <div class="slider-container">
-    <div class="slider"></div>
-    <div class="prev" onclick="prevSlide()">&#10094;</div>
-    <div class="next" onclick="nextSlide()">&#10095;</div>
-  </div>
-
-
-<div class="div2">
-     <div id="one">
-        <div id="cardContainer"></div>
         
-        <div id="pagination"></div>
-     </div>
-
-     <div id="two">
-          <!---one-->
-         <div class="comment">
-           <h4>Hello, We're content writer who is fascinated by content fashion,celebrity and Lifestyle.
-            We helps clients bring the right content to the right people .
-           </h4>
+        <div class="container-fluid d-flex justify-content-between">
+           
             <div>
-              <i class="fa-brands fa-facebook"></i>
-              <i class="fa-brands fa-twitter"></i>
-              <i class="fa-brands fa-instagram"></i>
-              <i class="fa-brands fa-pinterest"></i>
-              <i class="fa-brands fa-tiktok"></i>
-              <i class="fa-brands fa-youtube"></i>
+                <ul class="nav ">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="#">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">LIFESTYLE</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">CULTURE</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link">FEATURES</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link">CONTACT</a>
+                      </li>
+                  </ul>
+            </div>
+
+            <div>
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <i class="fa-solid fa-bars"></i>
+            </div>
+
+        </div>
+
+   
+        
+
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-12">
+              <div id="carouselExampleDark" class="carousel carousel-dark slide mt-3" data-bs-ride="carousel">
+                <div class="carousel-indicators"></div>
+                <div class="carousel-inner"></div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+
+
+
+
+
+    <div class="container-fluid">
+         <div class="row">
+            <div class="col-xxl-8 ">
+      
+              <div class="container mt-5">
+                <div class="row" id="cardContainer">
+                  <!-- Cards will be added dynamically here -->
+                </div>
+              </div>
+
+              <div class="container mt-3" id="pagination">
+               <nav aria-label="Page navigation example">
+                <ul class="pagination pagination-lg justify-content-center">
+                  <!-- Pagination buttons will be added dynamically here -->
+                </ul>
+               </nav>
+              </div>
+            </div>
+
+
+            <div class="col-xxl-4 ">
+                <div class="row">
+                    <div class="col-xl-12">
+                        <div class="row d-flex flex-column">
+                            <div class="col">
+                                <div class="border p-4 fs-4 shadow bg-white rounded mt-4">
+                                 <h4>Hello, We're content writer who is fascinated by content fashion,celebrity and Lifestyle.
+                                    We helps clients bring the right content to the right people .
+                                   </h4>
+                                    <div class="mt-5 ms-2 ps-2 text-center">
+                                      <i class="fa-brands fa-facebook"></i>
+                                      <i class="fa-brands fa-twitter"></i>
+                                      <i class="fa-brands fa-instagram"></i>
+                                      <i class="fa-brands fa-pinterest"></i>
+                                      <i class="fa-brands fa-tiktok"></i>
+                                      <i class="fa-brands fa-youtube"></i>
+                                    </div>
+                                </div>   
+                            </div>
+                              
+                            <!------>
+
+                            <div class="col">
+                                
+                                  <div class=" border shadow mt-5">
+                                    <div class="news-container" id="newsContainer" style="height: 560px; width: 100%; overflow-y: scroll;">
+                                        <!-- News articles will be dynamically added here -->
+                                    </div>
+                                </div>
+                                
+                                
+                            </div>
+
+
+                            <!---    -->
+                            <div class="col ">
+                                <div class="explore-topics text-primary mt-5 p-4 border shadow bg-white rounded">
+          
+                                    <h2 class="text-center ">  Explore Topics</h2>
+                                    <hr class="hr text-danger" />
+                                    <br/><br/>
+                                    
+                                    <article >
+                                      <p class="d-inline-block w-75 text-start fs-5"> <i class="fa-solid fa-angle-right text-danger"></i>Celebration </p> <p class="d-inline-block fs-5">( 2 ) </p>   
+                                    </article>
+                                    <hr class="hr text-danger"/>
+                                    <article >
+                                      <p class="d-inline-block w-75 text-start fs-5"><i class="fa-solid fa-angle-right text-danger"></i>Culture </p> <p class="d-inline-block fs-5">( 2 )</p>   
+                                    </article>
+                                    <hr class="hr text-danger"/>
+                                    <article >
+                                      <p class="d-inline-block w-75 text-start fs-5"> <i class="fa-solid fa-angle-right text-danger"></i> Fashion </p> <p class="d-inline-block fs-5">( 1 )</p>   
+                                    </article>
+                                    <hr class="hr text-danger"/>
+                                    <article >
+                                      <p class="d-inline-block w-75 text-star fs-5"><i class="fa-solid fa-angle-right text-danger"></i>Inspiration</p> <p class="d-inline-block fs-5">( 2 )</p>   
+                                    </article>
+                                    <hr class="hr text-danger"/>
+                                    <article >
+                                      <p class="d-inline-block w-75 text-start fs-5"> <i class="fa-solid fa-angle-right text-danger"></i>Lifestyle </p> <p class="d-inline-block fs-5">( 6 )</p>   
+                                    </article>
+                                    <hr class="hr text-danger"/>
+                                    <article >
+                                      <p class="d-inline-block w-75 text-start fs-5"><i class="fa-solid fa-angle-right text-danger"></i>Politic </p> <p class="d-inline-block fs-5">( 2 )</p>   
+                                    </article>
+                                    <hr class="hr text-danger"/>
+                                    <article >
+                                      <p class="d-inline-block w-75 text-start fs-5"><i class="fa-solid fa-angle-right text-danger"></i>Trending </p> <p class="d-inline-block fs-5">( 2 )</p>   
+                                    </article>
+                                  
+                                 </div>
+                            </div>
+
+                            <div class="col">
+                                <div class="mt-5 p-4 border shadow text-center">
+                                    <h2>Newsletter</h2>
+                                    <hr/>
+                                    <h3 class="mt-2">Join 70,000 Subscribers!</h3>
+                                    <div class="mt-2">
+                                     <input type="email" placeholder="Email address..." class="mt-3 w-75">
+                                    <input type="button" class="bg-primary mt-4 w-75" value="Sign Up">
+                                    </div>
+                                    
+                                    <p class="mt-2">By signing up,you agree to our <span>Privacy Policy</span></p>
+                       
+                                </div>
+                            </div>
+
+                            <div class="col">
+                                <div class="border shadow p-4 mt-5">
+                                  <h2 class="text-center">Celebration</h2>
+                                  <div class="container" id="news-container"></div>
+                              
+                                  <div class="d-flex justify-content-center mt-3 slider-container ">
+                                      <div class="prev bg-primary p-2 ms-2 rounded" id="prev-btn">&lt;</div>
+                                      <div class="next bg-primary p-2 ms-2 rounded" id="next-btn">&gt;</div>
+                                  </div>
+                                </div>
+                            </div>
+                            
+                        <!----   <div class="container celebration">
+                             
+                          </div>  -->
+                          
+                            
+                            <!--TAG CLOUDS-->
+
+                            <div class="col">
+                              <div class="container mt-5">
+                                <div class="tag-clouds card shadow p-3 mb-5 bg-white rounded">
+                                  <div class="card-body">
+                                    <h2 class="card-title text-center mb-4">Tag Clouds</h2>
+                                    <div class="d-flex flex-wrap justify-content-center align-items-center">
+                                      <input type="button" class="btn btn-outline-secondary me-3 mb-3" value="#Audio">
+                                      <input type="button" class="btn btn-outline-secondary me-3 mb-3" value="#Content">
+                                      <input type="button" class="btn btn-outline-secondary me-3 mb-3" value="#Featured">
+                                      <br>
+                                      <input type="button" class="btn btn-outline-secondary me-3 mb-3" value="#Image">
+                                      <input type="button" class="btn btn-outline-secondary me-3 mb-3" value="#Inspiration">
+                                      <input type="button" class="btn btn-outline-secondary me-3 mb-3" value="#Lifestyle">
+                                      <br>
+                                      <input type="button" class="btn btn-outline-secondary me-3 mb-3" value="#Photo">
+                                      <input type="button" class="btn btn-outline-secondary me-3 mb-3" value="#Pick">
+                                      <input type="button" class="btn btn-outline-secondary me-3 mb-3" value="#Slide">
+                                      <br>
+                                      <input type="button" class="btn btn-outline-secondary me-3 mb-3" value="#Trending">
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              
+                              
+                              
+                              
+                              
+                              
+                                
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
             </div>
          </div>
+        
+    </div>
 
-         <!---two-->
-         
-         <div class="news-container" id="newsContainer">
-           
-         </div>
-          
-         <!--three-->
-         <div class="explore-topics">
-          
-            <h2 style="text-align: center;">  Explore Topics</h2>
-            <hr class="hr">
-            <br/><br/>
-            
-            <article >
-              <p class="vel"> <i class="fa-solid fa-angle-right"></i>Celebration </p> <p class="num">( 2 ) </p>   
-            </article>
-            <hr/>
-            <article >
-              <p class="vel"><i class="fa-solid fa-angle-right"></i>Culture </p> <p class="num">( 2 )</p>   
-            </article>
-            <hr/>
-            <article >
-              <p class="vel"> <i class="fa-solid fa-angle-right"></i> Fashion </p> <p class="num">( 1 )</p>   
-            </article>
-            <hr/>
-            <article >
-              <p class="vel"><i class="fa-solid fa-angle-right"></i>Inspiration</p> <p class="num">( 2 )</p>   
-            </article>
-            <hr/>
-            <article >
-              <p class="vel"> <i class="fa-solid fa-angle-right"></i>Lifestyle </p> <p class="num">( 6 )</p>   
-            </article>
-            <hr/>
-            <article >
-              <p class="vel"><i class="fa-solid fa-angle-right"></i>Politic </p> <p class="num">( 2 )</p>   
-            </article>
-            <hr/>
-            <article >
-              <p class="vel"><i class="fa-solid fa-angle-right"></i>Trending </p> <p class="num">( 2 )</p>   
-            </article>
-          
-         </div>
 
-         <!---four-->
-         <div class="newsletter">
-             <h2>Newsletter</h2>
-             <hr/>
-             <h3>Join 70,000 Subscribers!</h3>
-             <div>
-              <input type="email" placeholder="Email address...">
-             <input type="button" value="Sign Up">
-             </div>
-             
-             <p>By signing up,you agree to our <span>Privacy Policy</span></p>
-
-         </div>
-
-         <!--five-->
-         <div class="celebration">
-          <h2 style="text-align: center;">Celebration</h2>
-          <div class="container" id="news-container"></div>
+    
       
-          <div class="slider-container">
-              <div class="prev" id="prev-btn">&lt;</div>
-              <div class="next" id="next-btn">&gt;</div>
-          </div>
+
+<div class="container-fluid">
+ <div class="row">
+  <div class="col-12 d-flex justify-content-center">
+    <div id="imageCarousel" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+          <!-- The dynamic content will be inserted here -->
       </div>
-      
-
-         <!---six-->
-         <div class="tag-clouds">
-          <h2 style="text-align: center;">Tag Clouds</h2>
-         <hr class="hr"/>
-          <div>
-            <input type="button" value="#Audio"> <input type="button" value="#Content"><input type="button" value="#Featured" >
-            <input type="button" value="#Image"><input type="button" value="#Inspiration"><input type="button" value="#Lifestyle">
-            <input type="button" value="#Photo" ><input type="button" value="#Pick"><input type="button" value="#Slide">
-            <input type="button" value="#Trending">
-          </div>
-            
-          
-          
-          
-         </div>
-
-     </div>
+  </div>
+  
+  </div>
+ </div>
 </div>
 
 
 
 
-  <div id="repeatimages">
-    <!-- The images will be dynamically added here -->
-  </div>
 
 
 
 
 
+       
+
+        <footer class="bg-light">
+            <!-- Grid container -->
+            <div class="container p-4 pb-0">
+               
+               <!-- Section: Social media --> 
+               <div class="row">
+              <section class="mb-4 d-flex justify-content-between">
+                <div> <i class="fa-regular fa-copyright"></i> 2023 </div>
+                <div>
+                    <!-- Facebook -->
+                <a
+                class="btn text-white btn-floating m-1"
+                style="background-color: #3b5998;"
+                href="#!"
+                role="button"
+                ><i class="fab fa-facebook-f"></i
+              ></a>
+        
+              <!-- Twitter -->
+              <a
+                class="btn text-white btn-floating m-1"
+                style="background-color: #55acee;"
+                href="#!"
+                role="button"
+                ><i class="fab fa-twitter"></i
+              ></a>
+        
+              <!-- Google -->
+              <a
+                class="btn text-white btn-floating m-1"
+                style="background-color: #dd4b39;"
+                href="#!"
+                role="button"
+                ><i class="fab fa-google"></i
+              ></a>
+        
+              <!-- Instagram -->
+              <a
+                class="btn text-white btn-floating m-1"
+                style="background-color: #ac2bac;"
+                href="#!"
+                role="button"
+                ><i class="fab fa-instagram"></i
+              ></a>
+        
+              <!-- Linkedin -->
+              <a
+                class="btn text-white btn-floating m-1"
+                style="background-color: #0082ca;"
+                href="#!"
+                role="button"
+                ><i class="fab fa-linkedin-in"></i
+              ></a>
+              <!-- Github -->
+              <a
+                class="btn text-white btn-floating m-1"
+                style="background-color: #333333;"
+                href="#!"
+                role="button"
+                ><i class="fab fa-github"></i
+              ></a>
+
+             </div>
+              <div >  <button type="button" class="btn btn-secondary">   Back to top</button> </div>
+            </section>
+            <!-- Section: Social media -->
+            </div>
+
+          </div>
+        
+          </footer>
 
 
+          <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+          <script src="index.js"></script>
 
-
-
-
-
-
-
-
-<footer>
-    <div class="footer">
-       <div><span><i class="fa-regular fa-copyright"></i>&nbsp;2023 News</span></div>
-        <div>
-            <i class="fa-brands fa-facebook"></i>
-            <i class="fa-brands fa-twitter"></i>
-            <i class="fa-brands fa-instagram"></i>
-            <i class="fa-brands fa-pinterest"></i>
-            <i class="fa-brands fa-tiktok"></i>
-            <i class="fa-brands fa-youtube"></i>
-        </div>
-       <div><button><i class="fa-solid fa-angle-up">&nbsp;</i>Back to top</button></div>
-    </div>
-</footer>
-
-
-
-
-   <!-- Add jQuery library -->
-   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-   <script src="script.js"></script>
-</body>
+    </body>
 </html>
+
+
+
+
